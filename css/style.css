@@ -16,6 +16,7 @@
 body {
     width: 100%;
     font-size: 16px;
+    background-image: url(../assets/Bariso/BG.png);
 }
 
 /* header */
@@ -71,7 +72,7 @@ main section .content-1-text {
     width: 50%;
     align-items: center;
     margin: 10% 0 0% 0%;
-    padding: 20px;
+    padding: 20px 0 0 70px;
     gap: 20px;
 }
 main section .content-1-text h1 {
@@ -79,6 +80,9 @@ main section .content-1-text h1 {
     color: #660000;
     font-size: 80px;
     align-self: flex-start;
+}
+main section span.span-txt {
+    font-size: 22px;
 }
 main section .content-1-text p {
     font-family: "Intro-Regular";
@@ -94,13 +98,24 @@ main section .content-1-text button {
     font-size: 15px;
     color: #ffffff;
     align-self: flex-start;
+    cursor: pointer;
 }
-main section img {
-    height: 700px;
+#content-1-poster-logo {
+    height: 650px;
     filter: grayscale(1);
     transition: 0.5s;
 }
-main section img:hover {
-    height: 1000px;
+#content-1-poster-logo:hover {
+    /* height: 800px; */
     filter: grayscale(0);
+}
+.content-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto;
+}
+#content-2-poster-logo {
+    width: 70%;
 }
