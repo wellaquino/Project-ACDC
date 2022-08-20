@@ -24,7 +24,11 @@ body {
 header {
     background-color: #660000;
     width: 100%;
+<<<<<<< HEAD
     height: 80px;
+=======
+    height: 81px;
+>>>>>>> developer
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -76,7 +80,11 @@ main section .content-1-text {
     gap: 20px;
 }
 main section .content-1-text h1 {
+<<<<<<< HEAD
     font-family: 'Intro-Regular', Arial, Helvetica, sans-serif;
+=======
+    font-family: 'Intro-Regular';
+>>>>>>> developer
     color: #660000;
     font-size: 80px;
     align-self: flex-start;
@@ -249,3 +257,9 @@ footer nav ul a {
     color: #ffffff;
     font-family: 'Intro-Regular', Arial, Helvetica, sans-serif;
 }
+<<<<<<< HEAD
+=======
+main section img {
+    height: 700px;
+}
+>>>>>>> developer
