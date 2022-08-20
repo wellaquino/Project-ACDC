@@ -16,6 +16,7 @@
 body {
     width: 100%;
     font-size: 16px;
+    background-image: url(../assets/Bariso/BG.png);
 }
 
 /* header */
@@ -47,13 +48,18 @@ header nav ul a {
     list-style: none;
 }
 .font1 {
-    font-family: 'Intro';
+    font-family: 'Intro', Arial, Helvetica, sans-serif;
     text-transform: lowercase;
 }
 
 /* end header */
 
 /* main */
+
+main {
+    background-image: url('../assets/Bariso/');
+    width: 100%;
+}
 
 main section.content-1 {
     display: flex;
@@ -66,11 +72,182 @@ main section .content-1-text {
     width: 50%;
     align-items: center;
     margin: 10% 0 0% 0%;
+    padding: 20px 0 0 70px;
+    gap: 20px;
 }
 main section .content-1-text h1 {
-    font-family: 'Intro-Regular';
+    font-family: 'Intro-Regular', Arial, Helvetica, sans-serif;
     color: #660000;
     font-size: 80px;
+    align-self: flex-start;
+}
+main section span.span-txt {
+    font-size: 22px;
+}
+main section .content-1-text p {
+    font-family: 'Intro-Regular', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1e1e1e;
+    line-height: 20px;
+    align-self: flex-start;
+}
+main section .content-1-text button {
+    background-color: #660000;
+    padding: 10px 13px;
+    font-family: 'Intro-Regular', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    align-self: flex-start;
+    cursor: pointer;
+}
+#content-1-poster-logo {
+    height: 650px;
+    filter: grayscale(1);
+    transition: 0.5s;
+}
+#content-1-poster-logo:hover {
+    /* height: 800px; */
+    filter: grayscale(0);
+}
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto;
+}
+#content-2-poster-logo {
+    width: 70%;
+}
+.content-3 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+#content-3-poster-logo {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.content-3 h3 {
+    font-size: 25px;
+    font-family: 'Intro', Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.span-h3 {
+    font-size: 30px;
+    line-height: 20px;
+    font-family: 'Intro-Regular', Arial, Helvetica, sans-serif;
+}
+.content-4 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+.content-4 h3 {
+    font-size: 25px;
+    font-family: 'Intro', Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.span-h3 {
+    font-size: 30px;
+    line-height: 20px;
+    font-family: 'Intro-Regular', Arial, Helvetica, sans-serif;
+}
+.content-4-itens {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.content-4 h2 {
+    color: #660000;
+    position: relative;
+    top: 180px;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: 'Intro-Regular', Arial, Helvetica, sans-serif;
+}
+.content-4-itens-item {
+    display: flex;
+}
+.item-cd {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+img.item-cd {
+    height: 280px;
+    gap: 30px;
+}
+
+/* footer */
+footer {
+    background-color: #660000;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+footer nav ul {
+    display: flex;
+    gap: 30px;
+}
+footer nav ul li {
+    align-items: center;
+}
+footer nav ul a {
+    font-family: 'Intro-Regular', Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+}
+.footer-content-itens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.social-media-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.social-media-item img {
+    width: auto;
+    height: 30px;
+}
+.social-media-item p {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Intro-Regular', Arial, Helvetica, sans-serif;
+}
+.footer-agrad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Intro-Regular', Arial, Helvetica, sans-serif;
 }
 main section img {
     height: 700px;
