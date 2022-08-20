@@ -118,6 +118,7 @@ main section .content-1-text button {
 }
 #content-2-poster-logo {
     width: 70%;
+    height: auto;
 }
 .content-3 {
     display: flex;
@@ -127,6 +128,7 @@ main section .content-1-text button {
 }
 #content-3-poster-logo {
     width: 100%;
+    height: auto;
     margin-bottom: 40px;
 }
 .content-3 h3 {
