@@ -17,6 +17,8 @@ body {
     width: 100%;
     font-size: 16px;
     background-image: url(../assets/Bariso/BG.png);
+    scrollbar-color: black;
+    scrollbar-width: thin;
 }
 
 /* header */
@@ -188,6 +190,12 @@ main section .content-1-text button {
 img.item-cd {
     height: 280px;
     gap: 30px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 8px rgba(0, 0, 0, 0.37);
+    transition: 0.5s;
+}
+img.item-cd:hover {
+height: 310px;
 }
 
 /* footer */
@@ -219,7 +227,7 @@ footer nav ul a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .social-media {
     display: flex;
@@ -237,10 +245,10 @@ footer nav ul a {
 }
 .social-media-item img {
     width: auto;
-    height: 25px;
+    height: 20px;
 }
 .social-media-item p {
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     font-family: 'Intro-Regular', Arial, Helvetica, sans-serif;
 }
@@ -250,7 +258,7 @@ footer nav ul a {
     height: 100px;
     border-radius: 2px;
     position: relative;
-    left: 120px;
+    left: 95px;
 }
 .footer-agrad {
     display: flex;
@@ -280,7 +288,7 @@ main section img {
     width: 100%;
     height: 10%;
     padding: 5px;
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
 }
 .btn-email {
     display: flex;
