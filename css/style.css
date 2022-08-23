@@ -174,7 +174,7 @@ main section .content-1-text button {
 .content-4 h2 {
     color: #660000;
     position: relative;
-    top: 180px;
+    top: 100px;
     text-align: left;
     margin-left: 5px;
     font-size: 20px;
@@ -190,14 +190,17 @@ main section .content-1-text button {
     margin-bottom: 30px;
 }
 img.item-cd {
-    height: 280px;
+    height: 200px;
     gap: 30px;
     border-radius: 10px;
-    box-shadow: -5px -5px 8px rgba(0, 0, 0, 0.37);
-    transition: 0.5s;
+    filter: drop-shadow(0 0 5px black);
+    /* box-shadow: -5px -5px 8px rgba(0, 0, 0, 0.37); */
+    transition: border, 0.5s;
 }
 img.item-cd:hover {
     height: 310px;
+    /* zoom: 150%; */
+    border: 5px solid #660000;
 }
 
 /* footer */
@@ -302,11 +305,11 @@ main section img {
 .btn-email img {
     height: 80%;
 }
-.btn-top {
+#btn-top {
     width: 50px;
     height: 50px;
     background-color: #440000;
-    display: flex;
+    display: none;
     border-radius: 25px;
     position: fixed;
     bottom: 20px;

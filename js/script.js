@@ -1,11 +1,16 @@
-const $hulk = $('#hulk');
+var mybutton = document.getElementById('btn-top');
 
-const toggleHulk = () => {
-    $hulk.toggleClass('is-active', $(window).scrollTop() > 200);
-};
+window.onscroll = function() {scrollFunction()};
 
-$hulk.on('click', function () {
-    $('html, body').animate({ scrollTop: $(document).height() }, 'slow');
-});
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "flex";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
 
-$(window).on('scroll', toggleHulk);
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
